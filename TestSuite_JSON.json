@@ -1,0 +1,51 @@
+{
+  "testsuite": {
+    "-model": "LoginForm",
+    "#cdata-section": "https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f\",
+    "test": [
+      {
+        "-name": "TeamRefCheck",
+        "-id": "CASE_001",
+        "-status": "Ready for test",
+        "dataset": {
+          
+        }
+      },
+      {
+        "-name": "IncorrectLogin",
+        "-id": "CASE_002",
+        "-status": "Ready for test",
+        "dataset": {
+          "data": [
+            "artdemid@gmail.com",
+            "incorrect-password"
+          ]
+        }
+      },
+      {
+        "-name": "GoHomeRef",
+        "-id": "CASE_003",
+        "-status": "Ready for test",
+        "dataset": {
+          
+        }
+      },
+      {
+        "-name": "GoHomeRef",
+        "-id": "CASE_004",
+        "-status": "Not Ready",
+        "dataset": {
+          
+        }
+      },
+      {
+        "-name": "GoHomeRef",
+        "-id": "CASE_005",
+        "-status": "Not Ready",
+        "dataset": {
+          
+        }
+      }
+    ]
+  }
+}
